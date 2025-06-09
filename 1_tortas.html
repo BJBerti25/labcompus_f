@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tortas</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<header class="mainnav">
+    <div class="nav-item grid-item-1">
+        <img id="logo" src="/fotos/PHOTO-2025-06-02-11-03-32-removebg-preview.png">
+    </div>
+    <div class="nav-item grid-item-1">
+        <p> </p>
+    </div>
+    <div class="nav-item grid-item-3">
+        <span id="texthead1">Dulce Tesoro</span>
+        <span id="texthead2">Pastelería</span>
+    </div>
+</header>
+<body>
+    <h1>Tortas</h1>
+    <br>
+    <div class="contenedor">
+        <div class="columna">
+            <img src="fotos/cumple.jpg" width="250" height="250">
+            <h2>Clásica de cumpleaños</h2>
+            <p>Tamaño:
+                <select class="tamaño">
+                    <option>Chico</option>
+                    <option>Mediano</option>
+                    <option>Grande</option>
+                </select>
+            </p>
+            <p>Bizcochuelo de vainilla húmedo con relleno de crema chantilly y dulce de leche y por fuera chantilly.</p>
+            <p>Precio por kilogramo: $24.000</p>
+            <p>Indique de cuantos kilogramos desea la torta: <input type="number" id="kilo4" min="1" value="1"></p>
+            <p>Cantidad: <input type="number" id="cantidad4" min="1" value="1"></p>
+            <button onclick="precio4()">Calcular precio.</button>
+            <p>Precio total: <input type="number" id="preciototal4" readonly></p>
+        </div>
+        <div class="columna">
+            <img src="fotos/selva.jpg" width="250" height="250">
+            <h2>Selva Negra</h2>
+            <p>Bizcochuelo de chocolate húmedo con doble relleno de crema chantilly con cereza y por fuera chantilly, chocolate y cerezas.</p>
+            <p>Precio por kilogramo: $24.000</p>
+            <p>Indique de cuantos kilogramos desea la torta: <input type="number" id="kilo5" min="1" value="1"></p>
+            <p>Cantidad: <input type="number" id="cantidad5" min="1" value="1"></p>
+            <button onclick="precio5()">Calcular precio.</button>
+            <p>Precio total: <input type="number" id="preciototal5" readonly></p>
+        </div>
+        <div class="columna">
+            <img src="fotos/ajedrez.jpg" width="250" height="250">
+            <h2>Ajedrez</h2>
+            <p>Bizcochuelo de vaillina y chocolate húmedo con único relleno de crema chantilly y por fuera chantilly.</p>
+            <p>Precio por kilogramo: $24.000</p>
+            <p>Indique de cuantos kilogramos desea la torta: <input type="number" id="kilo6" min="1" value="1"></p>
+            <p>Cantidad: <input type="number" id="cantidad6" min="1" value="1"></p>
+            <button onclick="precio6()">Calcular precio.</button>
+            <p>Precio total: <input type="number" id="preciototal6" readonly></p>
+        </div>
+        <div class="columna">
+            <img src="fotos/golosinera.jpg" width="250" height="250">
+            <h2>Golosinera</h2>
+            <p>Bizcochuelo de vaillina húmedo con doble relleno de crema chantilly y dulce de leche y por fuera chantilly y golosinas a elección (las golosinas tienen un costo adicional).</p>
+            <p>Precio por kilogramo: $24.000</p>
+            <p>Indique de cuantos kilogramos desea la torta: <input type="number" id="kilo7" min="1" value="1"></p>
+            <p>Cantidad: <input type="number" id="cantidad7" min="1" value="1"></p>
+            <button onclick="precio7()">Calcular precio.</button>
+            <p>Precio total: <input type="number" id="preciototal7" readonly></p>
+        </div>
+        <div class="columna">
+            <img src="fotos/balcarse.jpg" width="250" height="250">
+            <h2>Balcarse</h2>
+            <p>Bizcocho de vainilla con dulce de leche, merengue, nueces y crema chantilly.</p>
+            <p>Precio por kilogramo: $24.000</p>
+            <p>Indique de cuantos kilogramos desea la torta: <input type="number" id="kilo8" min="1" value="1"></p>
+            <p>Cantidad: <input type="number" id="cantidad8" min="1" value="1"></p>
+            <button onclick="precio8()">Calcular precio.</button>
+            <p>Precio total: <input type="number" id="preciototal8" readonly></p>
+        </div>
+    </div>
+    <br>
+    <div class="consultar">
+    <p>Consultar por <a href="https://wa.me/543512122326" target="_blank">Whatsapp</a> para personalizar su pedido.</p>
+    </div>
+    <br>
+    <hr>
+    <p style="color: red;" style="font-size: 35px;">IMPORTANTE: </p>
+    <p style="color: red;" style="font-size: 35px;">los precios estan sujetos a variaciones.</p>
+    <hr>
+    <br>
+    <br>
+</body>
+<footer>
+    <div class="footr">
+        <div class="foootr-item grid-item-1">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3427.566474972653!2d-64.17684370293321!3d-31.444679525412756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a3afad93b0b5%3A0x64f3671106a4b298!2sDulce%20Tesoro!5e0!3m2!1ses!2sar!4v1748986299923!5m2!1ses!2sar" width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="foootr-item grid-item-2">
+            <p><img src="fotos/instagram.png" width="22px" height="22px"><a href="https://www.instagram.com/dulce_tesoro7" target="_blank"> Instagram</a></p>
+            <p><img src="fotos/facebook.png" width="22px" height="22px"><a href="https://www.facebook.com/share/1Aa1EJQJW4/" target="_blank"> Facebook</a></p>
+        </div>
+        <div class="foootr-item grid-item-3">
+            <h2>Contacto</h2>
+            <p>Para pedido personalizado comunicate al <a href="https://wa.me/543512122326" target="_blank">Whatsapp</a></p>
+        </div>
+
+    </div>
+</footer>
+</html>

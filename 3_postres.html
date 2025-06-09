@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postres</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<header class="mainnav">
+    <div class="nav-item grid-item-1">
+        <img id="logo" src="/fotos/PHOTO-2025-06-02-11-03-32-removebg-preview.png">
+    </div>
+    <div class="nav-item grid-item-1">
+        <p> </p>
+    </div>
+    <div class="nav-item grid-item-3">
+        <span id="texthead1">Dulce Tesoro</span>
+        <span id="texthead2">Pastelería</span>
+    </div>
+</header>
+<body>
+    <h1>Postres</h1>
+    <br>
+    <div class="contenedor">
+        <div class="columna">
+            <img src="fotos/bosque.jpg" width="250" height="250">
+            <h2>Cheseecake de Frutos del Bosque</h2>
+            <p>$30.000</p>
+            <p>Rinde aproximadamente 15 porciones.</p>
+            <p>Cantidad: <input type="number" id="cantidad9" min="1" value="1"></p>
+            <button onclick="precio9()">Calcular precio.</button>
+            <p>Precio total: <input type="number" id="preciototal9" readonly></p>
+        </div>
+        <div class="columna">
+            <img src="fotos/oreo.jpg" width="250" height="250">
+            <h2>Cheseecake Oreo</h2>
+            <p>$30.000</p>
+            <p>Rinde aproximadamente 15 porciones.</p>
+            <p>Cantidad: <input type="number" id="cantidad10" min="1" value="1"></p>
+            <button onclick="precio10()">Calcular precio.</button>
+            <p>Precio total: <input type="number" id="preciototal10" readonly></p>
+        </div>
+        <div class="columna">
+            <img src="fotos/maracuya].jpg" width="250" height="250">
+            <h2>Cheseecake de Maracuyá</h2>
+            <p>$30.000</p>
+            <p>Rinde aproximadamente 15 porciones.</p>
+            <p>Cantidad: <input type="number" id="cantidad11" min="1" value="1"></p>
+            <button onclick="precio11()">Calcular precio.</button>
+            <p>Precio total: <input type="number" id="preciototal11" readonly></p>
+        </div>
+        <div class="columna">
+            <img src="fotos/tiramisu.jpg" width="250" height="250">
+            <h2>Tiramisú</h2>
+            <p>$35.000</p>
+            <p>Rinde aproximadamente 15 porciones.</p>
+            <p>Cantidad: <input type="number" id="cantidad12" min="1" value="1"></p>
+            <button onclick="precio12()">Calcular precio.</button>
+            <p>Precio total: <input type="number" id="preciototal12" readonly></p>
+        </div>
+        <div class="columna">
+            <img src="fotos/chocotorta.jpg" width="250" height="250">
+            <h2>Chocotorta</h2>
+            <p>$35.000</p>
+            <p>Rinde aproximadamente 15 porciones.</p>
+            <p>Cantidad: <input type="number" id="cantidad13" min="1" value="1"></p>
+            <button onclick="precio13()">Calcular precio.</button>
+            <p>Precio total: <input type="number" id="preciototal13" readonly></p>
+        </div>
+        <div class="columna">
+            <img src="fotos/marquise.jpg" width="250" height="250">
+            <h2>Marquise</h2>
+            <p>$39.000</p>
+            <p>Rinde aproximadamente 15 porciones.</p>
+            <p>Cantidad: <input type="number" id="cantidad14" min="1" value="1"></p>
+            <button onclick="precio14()">Calcular precio.</button>
+            <p>Precio total: <input type="number" id="preciototal14" readonly></p>
+        </div>
+        <div class="columna">
+            <img src="fotos/pionono.jpg" width="250" height="250">
+            <h2>Pionono</h2>
+            <p>$22.000</p>
+            <p>Pionono de chocolate relleno con crema moka. Rinde aprximadamente 10 porciones.</p>
+            <p>Cantidad: <input type="number" id="cantidad15" min="1" value="1"></p>
+            <button onclick="precio15()">Calcular precio.</button>
+            <p>Precio total: <input type="number" id="preciototal15" readonly></p>
+        </div>
+        <div class="columna">
+            <img src="fotos/rojel.jpg" width="250" height="250">
+            <h2>Rojel</h2>
+            <p>$45.000</p>
+            <p>Rinde aproximadamente 15 porciones.</p>
+            <p>Cantidad: <input type="number" id="cantidad16" min="1" value="1"></p>
+            <button onclick="precio16()">Calcular precio.</button>
+            <p>Precio total: <input type="number" id="preciototal16" readonly></p>
+        </div>
+        <div class="columna">
+            <img src="fotos/pavlova.jpg" width="250" height="250">
+            <h2>Pavlova</h2>
+            <p>$51.000</p>
+            <p>Rinde aproximadamente 25 porciones.</p>
+            <p>Cantidad: <input type="number" id="cantidad17" min="1" value="1"></p>
+            <button onclick="precio17()">Calcular precio.</button>
+            <p>Precio total: <input type="number" id="preciototal17" readonly></p>
+        </div>
+    </div>
+    <br>
+    <div class="consultar">
+    <p>Consultar por <a href="https://wa.me/543512122326" target="_blank">Whatsapp</a> por precios y otros tamaños.</p>
+    </div>
+    <br>
+    <hr>
+    <p style="color: red;" style="font-size: 35px;">IMPORTANTE: </p>
+    <p style="color: red;" style="font-size: 35px;">los precios estan sujetos a variaciones.</p>
+    <hr>
+    <br>
+    <br>
+</body>
+<footer>
+    <div class="footr">
+        <div class="foootr-item grid-item-1">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3427.566474972653!2d-64.17684370293321!3d-31.444679525412756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a3afad93b0b5%3A0x64f3671106a4b298!2sDulce%20Tesoro!5e0!3m2!1ses!2sar!4v1748986299923!5m2!1ses!2sar" width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="foootr-item grid-item-2">
+            <p><img src="fotos/instagram.png" width="22px" height="22px"><a href="https://www.instagram.com/dulce_tesoro7" target="_blank"> Instagram</a></p>
+            <p><img src="fotos/facebook.png" width="22px" height="22px"><a href="https://www.facebook.com/share/1Aa1EJQJW4/" target="_blank"> Facebook</a></p>
+        </div>
+        <div class="foootr-item grid-item-3">
+            <h2>Contacto</h2>
+            <p>Para pedido personalizado comunicate al <a href="https://wa.me/543512122326" target="_blank">Whatsapp</a></p>
+        </div>
+
+    </div>
+</footer>
+</html>
