@@ -170,3 +170,30 @@ function precio24(){
    let preciototal24 = preciobase * cantidad;
    document.getElementById("preciototal24").value = preciototal24;
 }
+function acctort(){
+   window.location.href="1_tortas.html";
+}
+function accbud(){
+   window.location.href="2_budines.html";
+}
+function accpost(){
+   window.location.href="3_postres.html";
+}
+function acctart(){
+   window.location.href="9_tartas.html";
+}
+function accfin(){
+   window.location.href="4_masasf.html";
+}
+function accsec(){
+   window.location.href="5_masass.html";
+}
+function accalf(){
+   window.location.href="6_alfa.html";
+}
+function accporc(){
+   window.location.href="7_porcion.html";
+}
+function accfest(){
+   window.location.href="8_festivo.html";
+}

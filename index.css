@@ -85,3 +85,15 @@ a{
     color: #603f20;
     align-items: center;
 }
+.nav1-item{
+    padding: 5px;
+    text-align: center;
+
+}
+.bu{
+    border: none;
+    background: none;
+    color: #603f20;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
