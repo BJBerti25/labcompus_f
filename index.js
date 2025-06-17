@@ -170,6 +170,9 @@ function precio24(){
    let preciototal24 = preciobase * cantidad;
    document.getElementById("preciototal24").value = preciototal24;
 }
+function accin(){
+   window.location.href="index.html";
+}
 function acctort(){
    window.location.href="1_tortas.html";
 }
